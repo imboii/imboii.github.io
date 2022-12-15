@@ -5,15 +5,16 @@ Maintainer: Derek Calabro
 Installed-Size: 400
 Depends: mobilesubstrate (>= 0.9.5000), ws.hbang.alderis (>= 1.2)
 Filename: ./debs/com.dcproducts.colorbar15_1.0.0_iphoneos-arm.deb
-Size: 11786
-MD5sum: 0f0b178983bec61bb00b46aebe089477
-SHA1: 5087ad0df6f9e1f4719cbfc1590ee6a79b5e9792
-SHA256: a1e36099ae876092b08b13e8cb6fa8aacaec5c6c5e5500833d5943d2c5747f66
+Size: 11808
+MD5sum: 0d4a97a33be3f59faa340778fe1bca19
+SHA1: f5fde87825cdf40b68d16950d6f14a2dafb15e18
+SHA256: c20429ae7e4789afb3b99d39b36a06dd75003561a70f866c335235e77a719bc4
 Section: Tweaks
 Description: ColorBar15 allows you to personally style your status bar with color.
 Author: Derek Calabro
 Depiction: https://dtcalabro.github.io/repo/depictions/?p=com.dcproducts.colorbar15
 Name: ColorBar15
+Sileodepiction: https://dtcalabro.github.io/repo/depictions/com.dcproducts.colorbar15/depiction.json
 
 Package: com.supermamon.newpackage
 Version: 2.0.0-1
@@ -28,7 +29,7 @@ SHA256: b01c426f4e262c901fd0a9dce060d89327af05bdbd203ce7527c133c1bc8cafd
 Section: Tweaks
 Description: This is a sample new package. Firmware should be greater than 7.0
 Author: Reposi3 <reposithree@gmail.com>
-Depiction: https://dtcalabro.github.io/repo/depictions/?p=com.supermamon.newpackage
+Depiction: https://supermamon.github.io/Reposi3/depictions/?p=com.supermamon.newpackage
 Name: New Package
 
 Package: com.supermamon.oldpackage
