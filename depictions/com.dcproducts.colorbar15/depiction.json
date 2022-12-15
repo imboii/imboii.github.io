@@ -59,15 +59,19 @@
 			"tabname": "Changelog",
 			"views": [
 				{
-					"title": "1.0.0",
+					"title": "Version 1.0.0",
 					"useBoldText": true,
 					"useBottomMargin": true,
 					"class": "DepictionSubheaderView"
 				},
 				{
-					"markdown": "\t\n\u2022 Initial Release",
+					"markdown": "\t\t\n\u2022 Initial Release",
 					"useSpacing": false,
 					"class": "DepictionMarkdownView"
+                },
+                {
+					"spacing": 20,
+					"class": "DepictionSpacerView"
 				}
 			],
 			"class": "DepictionStackView"
