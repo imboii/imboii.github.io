@@ -7,7 +7,7 @@
 			"views": [
 				{
 					"class": "DepictionMarkdownView",
-					"markdown": "## ColorBar15\nColorBar15 is a rootless tweak compatible with iOS 15.\nIt has been tested and works perfectly fine with XinaA15."
+					"markdown": "## ColorBar15"
                 },
                 {
 					"class": "DepictionMarkdownView",
@@ -36,7 +36,7 @@
 				},
 				{
 					"title": "Developer",
-					"text": "DTCalabro",
+					"text": "Derek Calabro",
 					"class": "DepictionTableTextView"
 				},
 				{
