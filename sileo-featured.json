@@ -4,7 +4,7 @@
     "itemCornerRadius": 10,
     "banners": [
       {
-          "url": "https://dtcalabro.github.io/repo/CydiaIcon.png",
+          "url": "https://dtcalabro.github.io/repo/depictions/com.dcproducts.colorbar15/banner.jpg",
           "title": "ColorBar15",
           "package": "com.dcproducts.colorbar15",
           "hideShadow": false
