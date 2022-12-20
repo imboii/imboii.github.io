@@ -125,4 +125,12 @@ p {
     html.can-touch .link-item:active { /* disable hover effect when input is touch */
         background-color: #1f1f1f;
     }
+
+    .fa-brands:before {
+        color: white;
+    }
+
+    .fa-brands:hover {
+        color: black;
+    }
 }
