@@ -4,6 +4,7 @@ body {
 
 .card {
     margin-bottom: 1em;
+    border-radius: 10px;
 }
 
 .card-text {
