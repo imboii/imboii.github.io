@@ -105,9 +105,9 @@
 							var a = $("<a class='link-item list-group-item'>");
 							a.attr("href", $(data).find('url').text());
 							if ($(data).find('iconclass')) {
-								//var i = $("<span>");
-								var i = $("<i>");
+								var i = $("<span>");
 								i.attr("class", $(data).find('iconclass').text());
+								i.attr("style", "padding-right: 10px;");
 								console.log(i);
 								$(a).append(i);
 							}
