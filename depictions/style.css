@@ -20,7 +20,7 @@ body {
     list-style-type: none;
     padding: 10px 15px 10px 15px;
     display: block;
-    color: #4f89bb !important;
+    /*color: #4f89bb !important;*/
     text-align: left;
 }
 .link-item:hover {
