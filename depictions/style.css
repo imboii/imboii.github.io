@@ -87,6 +87,7 @@ p {
 
 .btn {
     border-radius: 10px;
+    margin-right: 15px;
 }
 
 @media (prefers-color-scheme: dark) {
