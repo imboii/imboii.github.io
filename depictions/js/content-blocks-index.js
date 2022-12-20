@@ -104,7 +104,6 @@ function getContentBlocks() {
                     if ($(data).find('iconclass')) {
                         var i = $("<span>")
                         i.attr("class", $(data).find('iconclass').text());
-                        i.attr("style", "padding-right: 10px;");
                         console.log(i);
                         $(a).append(i);
                     }
