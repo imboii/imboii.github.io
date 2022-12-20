@@ -17,7 +17,7 @@
 		</link>
 		<link>
 			<name>Send me a donation</name>
-			<url>https://paypal.com/donate/?cmd=_donations&business=dtcalabro@gmail.com&item_name=iOS%20Tweak%20Development</url>
+			<url>https://paypal.com/donate/?cmd=_donations%26business=dtcalabro@gmail.com%26item_name=iOS%20Tweak%20Development</url>
 			<iconclass>fa fa-paypal</iconclass>
 		</link>
 	</footerlinks>
