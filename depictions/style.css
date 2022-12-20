@@ -1,21 +1,27 @@
 body {
     margin: 1em;
 }
+
 .card {
     margin-bottom: 1em;
 }
+
 .card-text {
     margin-bottom: 10px;
 }
+
 .thumbnail {
     margin-bottom: 2em;
 }
+
 .list-group {
     margin-bottom: 2em;
 }
+
 .disable-hover {
     pointer-events: none;
 }
+
 .link-item {
     list-style-type: none;
     padding: 10px 15px 10px 15px;
@@ -23,6 +29,7 @@ body {
     /*color: #4f89bb !important;*/
     text-align: left;
 }
+
 .link-item:hover {
     border: 1px solid #ddd;
     background-color: #f5f5f5;
@@ -47,6 +54,24 @@ p {
     margin-bottom: 0;
 }
 
+.jumbotron {
+    border-radius: 10px;
+}
+
+.list-group-item:first-child {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.list-group-item:last-child {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.card-header:first-child {
+    border-radius: 0;
+}
+
 @media (prefers-color-scheme: dark) {
     body {
         background-color: #1f1f1f;
@@ -61,13 +86,10 @@ p {
         background-color: #2f2f2f;
     }
 
-    .card-header:first-child {
-        border-radius: 0;
-    }
-
     .card-body {
         background-color: #1f1f1f;
     }
+
     .jumbotron {
         background-color: #2f2f2f;
     }
@@ -84,5 +106,4 @@ p {
     html.can-touch .link-item:active { /* disable hover effect when input is touch */
         background-color: #1f1f1f;
     }
-
 }
