@@ -1,20 +1,20 @@
 function getContentBlocks() {
     return {
-        "#screenshotsList"	: {
-            "type":"custom",
-            "source" :"package>screenshots>screenshot",
-            "render" : function(element,source) {
-                if ($(source).size()==0) {
-                    $(element).append( $("<div class='alert alert-danger'>The aren't any screenshots for this package</div>") ); 
+        "#screenshotsList": {
+            "type": "custom",
+            "source": "package>screenshots>screenshot",
+            "render": function(element, source) {
+                if ($(source).size() == 0) {
+                    $(element).append($("<div class='alert alert-danger'>The aren't any screenshots for this package</div>")); 
                     return;
                 }
-                $.each(source, function(index,data) {
+                $.each(source, function(index, data) {
                     var th = $("<div class='thumbnail'>");
                     th.append($("<p>")
                         .text($(data).find('description').text())
                     )
                     th.append($('<img class="img-fluid">')
-                        .attr("src",bundleid+'/screenshots/'+$(data).find('image').text())
+                        .attr("src", bundleid + '/screenshots/' + $(data).find('image').text())
                     )
                     $(element).append(th);
                 });
