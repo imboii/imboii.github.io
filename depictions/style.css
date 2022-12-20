@@ -39,7 +39,6 @@ body {
 
 html.can-touch .link-item:hover { /* disable hover effect when input is touch */
     background-color: #fff;
-    text-decoration: none;
 }
 
 html.can-touch .link-item:active { /* disable hover effect when input is touch */
@@ -90,6 +89,10 @@ p {
 .btn {
     border-radius: 10px;
     margin-right: 15px;
+}
+
+.link-item.list-group-item {
+    text-decoration: none;
 }
 
 @media (prefers-color-scheme: dark) {
