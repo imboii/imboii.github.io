@@ -85,6 +85,10 @@ p {
     border-bottom-right-radius: 10px;
 }
 
+.btn {
+    border-radius: 10px;
+}
+
 @media (prefers-color-scheme: dark) {
     body {
         background-color: #1f1f1f;
