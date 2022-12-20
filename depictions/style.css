@@ -4,6 +4,9 @@ body {
 .card {
     margin-bottom: 1em;
 }
+.card-text {
+    margin-bottom: 10px;
+}
 .thumbnail {
     margin-bottom: 2em;
 }
