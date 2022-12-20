@@ -5,7 +5,7 @@ body {
     margin-bottom: 1em;
 }
 .thumbnail {
-    margin-bottom: 2em;;
+    margin-bottom: 2em;
 }
 .list-group {
     margin-bottom: 2em;
@@ -25,18 +25,23 @@ body {
     background-color: #f5f5f5;
 }
 
-html.can-touch .link-item:hover{ /* disable hover effect when input is touch */
+html.can-touch .link-item:hover { /* disable hover effect when input is touch */
     background-color: #fff;
 }
 
-html.can-touch .link-item:active{ /* disable hover effect when input is touch */
+html.can-touch .link-item:active { /* disable hover effect when input is touch */
     background-color: #f5f5f5;
 }
 
-.fa {
+.fa .fa-brands {
     font-size: 16px;
     margin-left: 5px;
     margin-right: 10px;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -57,14 +62,14 @@ html.can-touch .link-item:active{ /* disable hover effect when input is touch */
 
     .list-group-item {
         background-color: #1f1f1f;
-        border-color:  #2f2f2f;;
+        border-color:  #2f2f2f;
     }
 
-    html.can-touch .link-item:hover{ /* disable hover effect when input is touch */
+    html.can-touch .link-item:hover { /* disable hover effect when input is touch */
         background-color: #1f1f1f;
     }
     
-    html.can-touch .link-item:active{ /* disable hover effect when input is touch */
+    html.can-touch .link-item:active { /* disable hover effect when input is touch */
         background-color: #1f1f1f;
     }
 
