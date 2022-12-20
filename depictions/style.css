@@ -15,7 +15,7 @@ body {
 }
 .link-item {
     list-style-type: none;
-    padding: 17px 15px;
+    padding: 10px 15px 10px 15px;
     display: block;
     color: #4f89bb !important;
     text-align: left;
