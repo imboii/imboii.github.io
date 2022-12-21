@@ -29,6 +29,7 @@ body {
     display: block;
     /*color: #4f89bb !important;*/
     text-align: left;
+    border-width: 3px;
 }
 
 .link-item:hover {
