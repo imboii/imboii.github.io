@@ -1,4 +1,5 @@
 $(function() {
+    console.log("link-item-hover.js debug message!");
     var item = $('.link-item');
     var orig_color = item.css("border-bottom");
 
