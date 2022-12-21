@@ -36,6 +36,7 @@ body {
     /*border: 1px solid #ddd;*/
     background-color: #f5f5f5;
     color: black;
+    border-width: 3px;
 }
 
 html.can-touch .link-item:hover { /* disable hover effect when input is touch */
@@ -94,6 +95,19 @@ p {
 
 .link-item.list-group-item {
     text-decoration: none;
+}
+
+.link-item.list-group-item:first-child:hover {
+    border-top: 3px solid white;
+    border-left: 3px solid white;
+    border-right: 3px solid white;
+    border-bottom: 3px solid white;
+}
+
+.link-item.list-group-item:hover {
+    border-left: 3px solid white;
+    border-right: 3px solid white;
+    border-bottom: 3px solid white;
 }
 
 @media (prefers-color-scheme: dark) {
