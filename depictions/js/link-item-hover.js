@@ -1,7 +1,9 @@
 $(function() {
     console.log("link-item-hover.js debug message!");
     var item = $('.link-item');
+    console.log(item);
     var orig_color = item.css("border-bottom");
+    console.log(orig_color);
 
     item.hover(function() {
         //$('#b').css('background-color', 'yellow');
