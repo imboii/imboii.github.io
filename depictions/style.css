@@ -117,6 +117,18 @@ p {
     border-left: 3px solid white;
     border-right: 3px solid white;
     border-bottom: 3px solid white;
+    border-top: 3px solid white;
+}
+
+.link-item.list-group-item:last-child:hover {
+    border-left: 3px solid white;
+    border-right: 3px solid white;
+    border-bottom: 3px solid white;
+}
+
+.list-group-item+.link-item:hover {
+    border-bottom: 3px solid white;
+    border-top: none;
 }
 
 @media (prefers-color-scheme: dark) {
