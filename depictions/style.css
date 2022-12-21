@@ -74,6 +74,10 @@ p {
     border-width: 3px;
 }
 
+.list-group-item+.list-group-item {
+    border-top-width: 0px;
+}
+
 .card-header:first-child {
     /*border-radius: 0;*/
     border-top-left-radius: 10px;
