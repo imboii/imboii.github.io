@@ -4,7 +4,7 @@
     "itemCornerRadius": 10,
     "banners": [
       {
-          "url": "https://dtcalabro.github.io/repo/depictions/com.dcproducts.colorbar15/banner.png",
+          "url": "https://dtcalabro.github.io/repo/banners/com.dcproducts.colorbar15.png",
           "title": "ColorBar15",
           "package": "com.dcproducts.colorbar15",
           "hideShadow": false
