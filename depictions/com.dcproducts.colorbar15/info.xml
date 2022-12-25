@@ -14,18 +14,21 @@
 	</dependencies>
 	<shortDescription>ColorBar15 allows you to personally style your status bar with color.</shortDescription>
 	<descriptionlist>
-		<description>ColorBar15 is a rootless tweak compatible with iOS 15.</description>
-		<description>It has been tested and works perfectly fine with XinaA15.</description>
+		<description>
+		<![CDATA[
+		ColorBar15 is a rootless tweak compatible with iOS 15.<br/> 
+		It has been tested and works perfectly fine with XinaA15.
+		]]>
 		</description>
 	</descriptionlist>
 	<screenshots>
 		<screenshot>
-			<description>This is a description for screenshot 1. It's Cydia!</description>
-			<image>cydia.jpg</image>
+			<!--<description>This is a description for screenshot 1. It's Cydia!</description>-->
+			<image>screenshot-01.png</image>
 		</screenshot>
 		<screenshot>
-			<description>This is a description for screenshot 2. It's another Cydia!</description>
-			<image>cydia.jpg</image>
+			<!--<description>This is a description for screenshot 2. It's another Cydia!</description>-->
+			<image>screenshot-02.png</image>
 		</screenshot>
 	</screenshots>
 	<changelog>
@@ -35,7 +38,7 @@
 		<link>
 			<name>/r/jailbreak</name>
 			<url>https://www.reddit.com/r/jailbreak</url>
-			<iconclass>fa fa-reddit</iconclass>
+			<iconclass>fa-brands fa-reddit</iconclass>
 		</link>
 	</links>
 </package>

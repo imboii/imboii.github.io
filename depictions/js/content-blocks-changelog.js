@@ -1,6 +1,6 @@
 function getContentBlocks() {
     return {
-        "#changeLogList" : {
+        "#changeLogList": {
             "type"              : "articles",
             "source"			: "changelog",
             "titleSource" 		: "version",
@@ -9,7 +9,6 @@ function getContentBlocks() {
             "paragraphContainer": "<ul class='list-group'>",
             "paragraphElement"	: "<li class='list-group-item'>"
         }
-
     }
 }
 

@@ -1,0 +1,108 @@
+{
+	"minVersion": "0.1",
+	"headerImage": "https://dtcalabro.github.io/repo/banners/com.dcproducts.colorbar15.png",
+	"tabs": [
+		{
+			"tabname": "Details",
+			"views": [
+				{
+					"class": "DepictionMarkdownView",
+					"markdown": "## ColorBar15"
+                },
+                {
+					"class": "DepictionMarkdownView",
+					"markdown": "ColorBar15 is a rootless tweak compatible with iOS 15."
+                },
+                {
+					"class": "DepictionMarkdownView",
+					"markdown": "It has been tested and works perfectly fine with XinaA15."
+				},
+				{
+					"itemCornerRadius": 10,
+					"itemSize": "{320, 284.44444444444}",
+					"screenshots": [
+					  	{
+							"accessibilityText": "Screenshot",
+							"url": "https://dtcalabro.github.io/repo/depictions/com.dcproducts.colorbar15/screenshots/screenshot-01.png",
+							"fullSizeURL": "https://dtcalabro.github.io/repo/depictions/com.dcproducts.colorbar15/screenshots/screenshot-01.png"
+						},
+						{
+							"accessibilityText": "Screenshot",
+							"url": "https://dtcalabro.github.io/repo/depictions/com.dcproducts.colorbar15/screenshots/screenshot-02.png",
+							"fullSizeURL": "https://dtcalabro.github.io/repo/depictions/com.dcproducts.colorbar15/screenshots/screenshot-02.png"
+						},
+						{
+							"accessibilityText": "Screenshot",
+							"url": "https://dtcalabro.github.io/repo/depictions/com.dcproducts.colorbar15/screenshots/screenshot-03.png",
+							"fullSizeURL": "https://dtcalabro.github.io/repo/depictions/com.dcproducts.colorbar15/screenshots/screenshot-03.png"
+						},
+						{
+							"accessibilityText": "Screenshot",
+							"url": "https://dtcalabro.github.io/repo/depictions/com.dcproducts.colorbar15/screenshots/screenshot-04.png",
+							"fullSizeURL": "https://dtcalabro.github.io/repo/depictions/com.dcproducts.colorbar15/screenshots/screenshot-04.png"
+					  	}
+					],
+					"class": "DepictionScreenshotsView"
+				},
+				{
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"title": "Information",
+					"class": "DepictionHeaderView"
+				},
+				{
+					"title": "Version",
+					"text": "1.0.0",
+					"class": "DepictionTableTextView"
+				},
+				{
+					"title": "Price",
+					"text": "FREE",
+					"class": "DepictionTableTextView"
+				},
+				{
+					"title": "Developer",
+					"text": "Derek Calabro",
+					"class": "DepictionTableTextView"
+				},
+				{
+					"title": "Website",
+					"action": "https://dtcalabro.github.io/repo/",
+					"class": "DepictionTableButtonView"
+				},
+				{
+					"spacing": 16,
+					"class": "DepictionSpacerView"
+				},
+				{
+					"spacing": 20,
+					"class": "DepictionSpacerView"
+				}
+			],
+			"class": "DepictionStackView"
+		},
+		{
+			"tabname": "Changelog",
+			"views": [
+				{
+					"title": "Version 1.0.0",
+					"useBoldText": true,
+					"useBottomMargin": true,
+					"class": "DepictionSubheaderView"
+				},
+				{
+					"markdown": "\t\t\n\u2022 Initial Release",
+					"useSpacing": false,
+					"class": "DepictionMarkdownView"
+                },
+                {
+					"spacing": 20,
+					"class": "DepictionSpacerView"
+				}
+			],
+			"class": "DepictionStackView"
+		}
+	],
+	"class": "DepictionTabView"
+}
