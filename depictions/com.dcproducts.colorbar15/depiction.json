@@ -18,8 +18,8 @@
 					"markdown": "It has been tested and works perfectly fine with XinaA15."
 				},
 				{
-					"itemCornerRadius": 6,
-					"itemSize": "{160, 275.41333333333336}",
+					"itemCornerRadius": 10,
+					"itemSize": "{160, 284.44444444444}",
 					"screenshots": [
 					  	{
 							"accessibilityText": "Screenshot",
@@ -30,6 +30,16 @@
 							"accessibilityText": "Screenshot",
 							"url": "https://dtcalabro.github.io/repo/depictions/com.dcproducts.colorbar15/screenshots/screenshot-02.png",
 							"fullSizeURL": "https://dtcalabro.github.io/repo/depictions/com.dcproducts.colorbar15/screenshots/screenshot-02.png"
+						},
+						{
+							"accessibilityText": "Screenshot",
+							"url": "https://dtcalabro.github.io/repo/depictions/com.dcproducts.colorbar15/screenshots/screenshot-03.png",
+							"fullSizeURL": "https://dtcalabro.github.io/repo/depictions/com.dcproducts.colorbar15/screenshots/screenshot-03.png"
+						},
+						{
+							"accessibilityText": "Screenshot",
+							"url": "https://dtcalabro.github.io/repo/depictions/com.dcproducts.colorbar15/screenshots/screenshot-04.png",
+							"fullSizeURL": "https://dtcalabro.github.io/repo/depictions/com.dcproducts.colorbar15/screenshots/screenshot-04.png"
 					  	}
 					],
 					"class": "DepictionScreenshotsView"
