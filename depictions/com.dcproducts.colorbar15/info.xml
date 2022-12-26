@@ -1,7 +1,7 @@
 <package>
 	<id>com.dcproducts.colorbar15</id>
 	<name>ColorBar15</name>
-	<version>1.0.0</version>
+	<version>1.0.0-1</version>
 	<compatibility>
 		<firmware>
 			<miniOS>15.0</miniOS>
@@ -29,6 +29,12 @@
 		<screenshot>
 			<!--<description>This is a description for screenshot 2. It's another Cydia!</description>-->
 			<image>screenshot-02.png</image>
+		</screenshot>
+		<screenshot>
+			<image>screenshot-03.png</image>
+		</screenshot>
+		<screenshot>
+			<image>screenshot-04.png</image>
 		</screenshot>
 	</screenshots>
 	<changelog>

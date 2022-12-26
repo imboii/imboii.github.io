@@ -53,7 +53,7 @@
 				},
 				{
 					"title": "Version",
-					"text": "1.0.0",
+					"text": "1.0.0-1",
 					"class": "DepictionTableTextView"
 				},
 				{
@@ -85,6 +85,21 @@
 		{
 			"tabname": "Changelog",
 			"views": [
+				{
+					"title": "Version 1.0.0-1",
+					"useBoldText": true,
+					"useBottomMargin": true,
+					"class": "DepictionSubheaderView"
+				},
+				{
+					"markdown": "\t\t\n\u2022 Fixed a bug where the colors would not apply at all",
+					"useSpacing": false,
+					"class": "DepictionMarkdownView"
+                },
+                {
+					"spacing": 20,
+					"class": "DepictionSpacerView"
+				},
 				{
 					"title": "Version 1.0.0",
 					"useBoldText": true,
