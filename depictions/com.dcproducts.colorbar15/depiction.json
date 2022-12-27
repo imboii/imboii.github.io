@@ -57,6 +57,11 @@
 					"class": "DepictionTableTextView"
 				},
 				{
+					"title": "Release Date",
+					"text": "12-27-22",
+					"class": "DepictionTableTextView"
+				},
+				{
 					"title": "Price",
 					"text": "FREE",
 					"class": "DepictionTableTextView"
