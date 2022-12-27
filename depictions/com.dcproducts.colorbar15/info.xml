@@ -1,7 +1,7 @@
 <package>
 	<id>com.dcproducts.colorbar15</id>
 	<name>ColorBar15</name>
-	<version>1.0.0-1</version>
+	<version>1.0.0-2</version>
 	<compatibility>
 		<firmware>
 			<miniOS>15.0</miniOS>
@@ -38,7 +38,7 @@
 		</screenshot>
 	</screenshots>
 	<changelog>
-		<change>Initial release</change>
+		<change>Fixed a bug where the the icons in settings would display wrong when Dark Mode is not enabled</change>
 	</changelog>
 	<links>
 		<link>

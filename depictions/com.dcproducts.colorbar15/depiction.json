@@ -86,6 +86,26 @@
 			"tabname": "Changelog",
 			"views": [
 				{
+					"title": "Version 1.0.0-2",
+					"useBoldText": true,
+					"useBottomMargin": true,
+					"class": "DepictionSubheaderView"
+				},
+				{
+					"markdown": "\t\t\n\u2022 Fixed a bug where the the icons in settings would display wrong when Dark Mode is not enabled",
+					"useSpacing": false,
+					"class": "DepictionMarkdownView"
+				},
+				{
+					"markdown": "<small style=\"color: #999; margin-top: -8px;\">Released 12-27-22</small>",
+					"useRawFormat": true,
+					"class": "DepictionMarkdownView"
+				},
+                {
+					"spacing": 20,
+					"class": "DepictionSpacerView"
+				},
+				{
 					"title": "Version 1.0.0-1",
 					"useBoldText": true,
 					"useBottomMargin": true,
@@ -95,7 +115,12 @@
 					"markdown": "\t\t\n\u2022 Fixed a bug where the colors would not apply at all",
 					"useSpacing": false,
 					"class": "DepictionMarkdownView"
-                },
+				},
+				{
+					"markdown": "<small style=\"color: #999; margin-top: -8px;\">Released 12-26-22</small>",
+					"useRawFormat": true,
+					"class": "DepictionMarkdownView"
+				},
                 {
 					"spacing": 20,
 					"class": "DepictionSpacerView"
@@ -110,7 +135,12 @@
 					"markdown": "\t\t\n\u2022 Initial Release",
 					"useSpacing": false,
 					"class": "DepictionMarkdownView"
-                },
+				},
+				{
+					"markdown": "<small style=\"color: #999; margin-top: -8px;\">Released 12-25-22</small>",
+					"useRawFormat": true,
+					"class": "DepictionMarkdownView"
+				},
                 {
 					"spacing": 20,
 					"class": "DepictionSpacerView"

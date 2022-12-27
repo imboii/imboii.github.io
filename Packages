@@ -36,3 +36,22 @@ Icon: https://dtcalabro.github.io/repo/depictions/com.dcproducts.colorbar15/icon
 Name: ColorBar15
 Sileodepiction: https://dtcalabro.github.io/repo/depictions/com.dcproducts.colorbar15/depiction.json
 
+Package: com.dcproducts.colorbar15
+Version: 1.0.0-2
+Architecture: iphoneos-arm
+Maintainer: Derek Calabro
+Installed-Size: 1200
+Depends: mobilesubstrate (>= 0.9.5000), ws.hbang.alderis (>= 1.2)
+Filename: ./debs/com.dcproducts.colorbar15_1.0.0-2_iphoneos-arm.deb
+Size: 331800
+MD5sum: 98f7df0b1ca7744f1237ffd6d80207f2
+SHA1: 6c40101001734f8888a93767074b586ea5395498
+SHA256: 7b62b17ae0eacffe7020b4201afea3122e95971f86f77d96ce66b2ed55016d28
+Section: Tweaks
+Description: ColorBar15 allows you to personally style your status bar with color.
+Author: Derek Calabro
+Depiction: https://dtcalabro.github.io/repo/depictions/?p=com.dcproducts.colorbar15
+Icon: https://dtcalabro.github.io/repo/depictions/com.dcproducts.colorbar15/icon.png
+Name: ColorBar15
+Sileodepiction: https://dtcalabro.github.io/repo/depictions/com.dcproducts.colorbar15/depiction.json
+
