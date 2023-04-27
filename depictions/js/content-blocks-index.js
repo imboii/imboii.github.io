@@ -22,10 +22,7 @@ function getContentBlocks() {
                 }
                 
                 $(".header-image-container").show();
-                $(".header-image-container").append(
-                    $("<img id='headerImage'>")
-                    .attr("src", $(source).text())
-                );
+                $("#headerImage").attr("src", $(source).text());
             }
         },
         "#packageVersion": {
