@@ -1,9 +1,31 @@
+/*@import url(fonts/SFProText/SFProText.css);*/
+/*@import url(fonts/SFUIText/SFUIText.css);*/
+/*@import url(fonts/SFProDisplay/SFProDisplay.css);*/
+
 body {
-    margin: 1em;
+    margin: 1rem;
+    /* -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji" */
+    /*font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;*/
+    /*font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+    /*font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Rubic, sans-serif;*/
+    /*font-family: "SF-Pro", "Segoe UI", Arial, sans-serif;*/
+    /*font-family: "Linear","SF Pro Display",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu, Cantarell,"Open Sans","Helvetica Neue",sans-serif;*/
+    /*font-family: "Linear","SF Pro Display","Segoe UI",Roboto,Oxygen,Ubuntu, Cantarell,"Open Sans","Helvetica Neue",sans-serif;*/
+    /*font-family: "Linear","SF Pro Display","Segoe UI",sans-serif;*/
+    /*font-family: "Linear","SF Pro Display",sans-serif;*/
+    /*font-family: "Linear","SF Pro Display",sans-serif;*/
+
+    /*font-family: "SF Pro Text", "SF UI Text", "SF Pro Display", "Helvetica Neue", sans-serif;*/
+    /*font-family: "SF Pro Display", "SF Pro Text", "SF UI Text", "Helvetica Neue", sans-serif;*/
+    font-family: "SF UI Text", "SF Pro Display", "SF Pro Text", "Helvetica Neue", Roboto, Arial, "Noto Sans", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    /*font-family: "Inter", "SF Pro Text", "SF UI Text", "SF Pro Display", "Helvetica Neue", sans-serif;*/
+    /*font-family: "Inter", sans-serif;*/
 }
 
 .card {
-    margin-bottom: 1em;
+    margin-bottom: 1rem;
     border-radius: 10px;
     border: 3px solid;
 }
@@ -13,11 +35,11 @@ body {
 }
 
 .thumbnail {
-    margin-bottom: 2em;
+    margin-bottom: 2rem;
 }
 
 .list-group {
-    margin-bottom: 2em;
+    margin-bottom: 2rem;
 }
 
 .disable-hover {
@@ -91,8 +113,10 @@ p {
 }
 
 .card-body:last-child {
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+    /*border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;*/
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
     border-width: 3px;
 }
 
@@ -138,22 +162,60 @@ p {
  */
 .main-header {
     text-align: center;
+    /*box-sizing: border-box;*/
 }
 
 .main-header-img {
+    /*height: auto;
+    width: auto;
+    height: 250px !important;
+    width: 250px !important;*/
+    /*width: auto;*/
     height: 250px;
+    /*width: 250px;*/
+    /*height: 25%;
+    width: 25%;*/
     padding: 10px;
+    /*margin: 10px;*/
+    max-width: 100%;
+    border-radius: 10px;
+    /*overflow-anchor: none;*
+    /*vertical-align: -webkit-baseline-middle;*/
 }
 
 .main-header-label {
-    text-align: center;
+    /*margin-top: 0.5rem;*/
+    /*margin-top: 10px;
+    margin-bottom: 10px;*/
+    font-weight: 900;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    /*min-height: 48px;
+    height: 48px !important;
+    overflow-anchor: none;*/
+    /*font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;*/
 }
 
 /*
  * Add repo section
  */
+.add-repo-container {
+    width: fit-content;
+    margin: auto;
+    display: flex;
+    margin-top: 2rem;
+}
+
 .add-repo-header {
     text-align: center;
+}
+
+.add-repo-body {
+    border-radius: 0px;
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 1.25rem;
+    border-width: 3px;
 }
 
 .add-repo-btn-container {
@@ -170,8 +232,8 @@ p {
  * Featured packages section
  */
 .featured-header {
-    margin-top: 2em;
-    margin-bottom: 1em;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
 }
 
 /* Mobile Devices */
@@ -198,39 +260,38 @@ p {
 
 @media (prefers-color-scheme: dark) {
     body {
-        background-color: #1f1f1f;
+        background-color: var(--dark-mode-primary-bg-color);
         color: white;
     }
 
     .card {
-        border-color: #2f2f2f;
+        border-color: var(--dark-mode-secondary-bg-color);
         background-color: rgba(0, 0, 0, 0);
     }
 
     .card-header {
-        background-color: #2f2f2f;
+        background-color: var(--dark-mode-secondary-bg-color);
     }
 
     .card-body {
-        background-color: #1f1f1f;
+        background-color: var(--dark-mode-primary-bg-color);
     }
 
     .jumbotron {
-        background-color: #2f2f2f;
+        background-color: var(--dark-mode-secondary-bg-color);
     }
 
     .list-group-item {
-        background-color: #1f1f1f;
-        border-color:  #2f2f2f;
-        /*border-color:  #ff0000;*/
+        background-color: var(--dark-mode-primary-bg-color);
+        border-color:  var(--dark-mode-secondary-bg-color);
     }
 
     html.can-touch .link-item:hover { /* disable hover effect when input is touch */
-        background-color: #1f1f1f;
+        background-color: var(--dark-mode-primary-bg-color);
     }
     
     html.can-touch .link-item:active { /* disable hover effect when input is touch */
-        background-color: #1f1f1f;
+        background-color: var(--dark-mode-primary-bg-color);
     }
 
     .fa-brands:before {
@@ -239,5 +300,14 @@ p {
 
     .link-item:hover > .fa-brands:before {
         color: black;
+    }
+
+    .add-repo-body {
+        background-color: var(--dark-mode-secondary-bg-color);
+    }
+
+    :root {
+        --dark-mode-primary-bg-color: #1f1f1f;
+        --dark-mode-secondary-bg-color: #2f2f2f;
     }
 }
