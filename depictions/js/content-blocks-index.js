@@ -13,6 +13,18 @@ function getContentBlocks() {
                 }
             }
         },
+        "#packageHeaderImage": {
+            "type": "custom",
+            "source": "package>headerImage",
+            "render": function(element, source) {
+                if ($(source).size() == 0) {
+                    $(".header-image-container").hide()
+                    return
+                }
+                
+                $("#headerImage").attr("src", $(source).find("headerImage").text());
+            }
+        },
         "#packageVersion": {
             "type": "text",
             "source": "package>version"
