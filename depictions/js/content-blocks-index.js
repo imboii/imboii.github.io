@@ -26,8 +26,10 @@ function getContentBlocks() {
                 console.log("Adding header image");
                 
                 //$(".header-image-container").attr("display", "block");
-                //$(".header-image-container").show();
+                $(".header-image-container").show();
                 //$("#headerImage").attr("src", $(source).find("headerImage").text());
+
+                console.log("Source: " + $(source).find("headerImage").text());
 
                 $(".header-image-container").append(
                     $("<img id='headerImage'>")
