@@ -29,11 +29,11 @@ function getContentBlocks() {
                 $(".header-image-container").show();
                 //$("#headerImage").attr("src", $(source).find("headerImage").text());
 
-                console.log("Source: " + $(source).find("headerImage").text());
+                console.log("Source: " + $(source).text());
 
                 $(".header-image-container").append(
                     $("<img id='headerImage'>")
-                    .attr("src", $(source).find("headerImage").text())
+                    .attr("src", $(source).text())
                 );
             }
         },
