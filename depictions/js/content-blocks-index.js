@@ -18,10 +18,12 @@ function getContentBlocks() {
             "source": "package>headerImage",
             "render": function(element, source) {
                 if ($(source).size() == 0) {
-                    console.log("Source size equals 0");
+                    console.log("Header image source size equals 0");
                     $(".header-image-container").remove()
                     return
                 }
+
+                console.log("Adding header image");
                 
                 $(".header-image-container").attr("display", "block");
                 $("#headerImage").attr("src", $(source).find("headerImage").text());
