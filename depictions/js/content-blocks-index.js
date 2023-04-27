@@ -19,13 +19,14 @@ function getContentBlocks() {
             "render": function(element, source) {
                 if ($(source).size() == 0) {
                     console.log("Header image source size equals 0");
-                    $(".header-image-container").remove()
+                    //$(".header-image-container").remove()
                     return
                 }
 
                 console.log("Adding header image");
                 
-                $(".header-image-container").attr("display", "block");
+                //$(".header-image-container").attr("display", "block");
+                $(".header-image-container").show();
                 $("#headerImage").attr("src", $(source).find("headerImage").text());
             }
         },
