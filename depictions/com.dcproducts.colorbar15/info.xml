@@ -17,8 +17,9 @@
 	<descriptionlist>
 		<description>
 		<![CDATA[
-		ColorBar15 is a rootless tweak compatible with iOS 15.<br/> 
-		It has been tested and works perfectly fine with XinaA15.
+		ColorBar15 is a rootless and rootful tweak compatible with iOS 15.<br/> 
+		It has been tested and works perfectly fine with XinaA15, Dopamine, <br/>
+        Palera1n, and will probably work on others too.
 		]]>
 		</description>
 	</descriptionlist>
