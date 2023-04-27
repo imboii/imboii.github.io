@@ -23,6 +23,7 @@ function getContentBlocks() {
                     return
                 }
                 
+                $(".header-image-container").attr("display", "block");
                 $("#headerImage").attr("src", $(source).find("headerImage").text());
             }
         },
