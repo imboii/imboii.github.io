@@ -68,8 +68,6 @@ function data_loader_engine(contentBlocks, xml) {
 				break;
 			case "custom":
 				if (!key) { return }
-                console.log(key);
-                console.log(contentInfo);
 				contentInfo.render($(key), $(xml).find(contentInfo.source))
 				break;
 		}//switch
