@@ -183,9 +183,9 @@ p {
     .add-repo-btn-container {
         width: auto;
         display: grid;
-        grid-template-columns: 50% 50%;
+        /*grid-template-columns: 50% 50%;*/
     }
-    
+
     .add-repo-btn {
         margin: 5px;
         float: left;
@@ -193,10 +193,6 @@ p {
 
     .add-repo-btn:not(:last-child) {
         margin-right: 5px;
-    }
-
-    .add-repo-btn:last-of-type {
-        margin-bottom: 0px;
     }
 }
 
