@@ -13,7 +13,7 @@ function getContentBlocks() {
                 }
             }
         },
-        "#packageHeaderImage": {
+        "#packageHeaderImageContainer": {
             "type": "custom",
             "source": "package>headerImage",
             "render": function(element, source) {
