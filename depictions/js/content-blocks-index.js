@@ -18,7 +18,8 @@ function getContentBlocks() {
             "source": "package>headerImage",
             "render": function(element, source) {
                 if ($(source).size() == 0) {
-                    $(".header-image-container").hide()
+                    console.log("Source size equals 0");
+                    $(".header-image-container").remove()
                     return
                 }
                 
