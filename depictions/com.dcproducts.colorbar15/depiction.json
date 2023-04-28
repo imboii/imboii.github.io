@@ -131,13 +131,17 @@
 			"tabname": "Changelog",
 			"views": [
                 {
+					"spacing": 10,
+					"class": "DepictionSpacerView"
+				},
+                {
 					"markdown": "<h3 style=\"margin-top: 8px;\">Version 1.1.0</h3>",
 					"useSpacing": false,
                     "useRawFormat": true,
 					"class": "DepictionMarkdownView"
 				},
                 {
-					"spacing": 5,
+					"spacing": 10,
 					"class": "DepictionSpacerView"
 				},
                 {
