@@ -182,7 +182,7 @@
 					"class": "DepictionMarkdownView"
 				},
                 {
-					"spacing": 5,
+					"spacing": 1,
 					"class": "DepictionSpacerView"
 				},
 
