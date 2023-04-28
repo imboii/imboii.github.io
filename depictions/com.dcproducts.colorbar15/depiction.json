@@ -145,37 +145,37 @@
 					"class": "DepictionSpacerView"
 				},
                 {
-					"markdown": "<span style=\"margin-top: -8px;\">\u2022 Added rootless support</span>",
+					"markdown": "<span style=\"margin-top: -8px;\"> \u2022 Added rootless support</span>",
 					"useSpacing": false,
                     "useRawFormat": true,
 					"class": "DepictionMarkdownView"
 				},
                 {
-					"markdown": "<span style=\"margin-top: -8px;\">\u2022 Added the ability to set a status bar background color</span>",
+					"markdown": "<span style=\"margin-top: -8px;\">  \u2022 Added the ability to set a status bar background color</span>",
 					"useSpacing": false,
                     "useRawFormat": true,
 					"class": "DepictionMarkdownView"
 				},
                 {
-					"markdown": "<span style=\"margin-top: -8px;\">\u2022 Added the ability to change the camera and microphone indicator colors, or remove them altogether</span>",
+					"markdown": "<span style=\"margin-top: -8px;\">   \u2022 Added the ability to change the camera and microphone indicator colors, or remove them altogether</span>",
 					"useSpacing": false,
                     "useRawFormat": true,
 					"class": "DepictionMarkdownView"
 				},
                 {
-					"markdown": "<span style=\"margin-top: -8px;\">\u2022 Added the ability to change the color of different pill indicators on notched devices and the background on non-notched devices</span>",
+					"markdown": "<span style=\"margin-top: -8px;\">    \u2022 Added the ability to change the color of different pill indicators on notched devices and the background on non-notched devices</span>",
 					"useSpacing": false,
                     "useRawFormat": true,
 					"class": "DepictionMarkdownView"
 				},
                 {
-					"markdown": "<span style=\"margin-top: -8px;\">\u2022 Added the ability to change the color of the network activity indicator on applicable devices</span>",
+					"markdown": "<span style=\"margin-top: -8px;\">     \u2022 Added the ability to change the color of the network activity indicator on applicable devices</span>",
 					"useSpacing": false,
                     "useRawFormat": true,
 					"class": "DepictionMarkdownView"
 				},
                 {
-					"markdown": "<span style=\"margin-top: -8px;\">\u2022 Other performance and reliability optimizations and improvements</span>",
+					"markdown": "<span style=\"margin-top: -8px;\">   \u2022   Other performance and reliability optimizations and improvements</span>",
 					"useSpacing": false,
                     "useRawFormat": true,
 					"class": "DepictionMarkdownView"
