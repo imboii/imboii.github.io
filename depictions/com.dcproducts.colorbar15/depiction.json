@@ -131,10 +131,10 @@
 			"tabname": "Changelog",
 			"views": [
                 {
-					"title": "Version 1.1.0",
-					"useBoldText": true,
-					"useBottomMargin": false,
-					"class": "DepictionHeaderView"
+					"markdown": "<h1>Version 1.1.0</h1>",
+					"useSpacing": false,
+                    "useRawFormat": true,
+					"class": "DepictionMarkdownView"
 				},
                 {
 					"spacing": 5,
