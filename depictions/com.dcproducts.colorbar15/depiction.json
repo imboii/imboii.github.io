@@ -285,6 +285,12 @@
                     "useSpacing": false,
 					"useRawFormat": true,
 					"class": "DepictionMarkdownView"
+				},
+                
+
+                {
+					"spacing": 20,
+					"class": "DepictionSpacerView"
 				}
 			],
 			"class": "DepictionStackView"
