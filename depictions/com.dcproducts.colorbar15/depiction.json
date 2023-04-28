@@ -191,11 +191,11 @@
 				},
 
 
-				{
-					"title": "Version 1.0.0-2",
-					"useBoldText": true,
-					"useBottomMargin": false,
-					"class": "DepictionSubheaderView"
+                {
+					"markdown": "<h3>Version 1.0.0-2</h3>",
+					"useSpacing": false,
+                    "useRawFormat": true,
+					"class": "DepictionMarkdownView"
 				},
                 {
 					"spacing": 5,
