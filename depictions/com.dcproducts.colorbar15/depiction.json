@@ -131,7 +131,7 @@
 			"tabname": "Changelog",
 			"views": [
                 {
-					"spacing": 10,
+					"spacing": 20,
 					"class": "DepictionSpacerView"
 				},
                 {
@@ -212,6 +212,10 @@
                     "useRawFormat": true,
 					"class": "DepictionMarkdownView"
 				},
+                {
+					"spacing": 5,
+					"class": "DepictionSpacerView"
+				},
 				{
 					"markdown": "<small style=\"color: #999;\">Released 12-27-22</small>",
                     "useSpacing": false,
@@ -221,7 +225,7 @@
 
 
                 {
-					"spacing": 10,
+					"spacing": 20,
 					"class": "DepictionSpacerView"
 				},
 				{
@@ -240,15 +244,20 @@
                     "useRawFormat": true,
 					"class": "DepictionMarkdownView"
 				},
+                {
+					"spacing": 5,
+					"class": "DepictionSpacerView"
+				},
 				{
-					"markdown": "<small style=\"color: #999; margin-top: -8px;\">Released 12-26-22</small>",
+					"markdown": "<small style=\"color: #999;\">Released 12-26-22</small>",
+                    "useSpacing": false,
 					"useRawFormat": true,
 					"class": "DepictionMarkdownView"
 				},
 
 
                 {
-					"spacing": 10,
+					"spacing": 20,
 					"class": "DepictionSpacerView"
 				},
 				{
@@ -267,8 +276,13 @@
                     "useRawFormat": true,
 					"class": "DepictionMarkdownView"
 				},
+                {
+					"spacing": 5,
+					"class": "DepictionSpacerView"
+				},
 				{
-					"markdown": "<small style=\"color: #999; margin-top: -8px;\">Released 12-25-22</small>",
+					"markdown": "<small style=\"color: #999;\">Released 12-25-22</small>",
+                    "useSpacing": false,
 					"useRawFormat": true,
 					"class": "DepictionMarkdownView"
 				}
