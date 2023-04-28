@@ -135,13 +135,13 @@
 					"class": "DepictionSpacerView"
 				},
                 {
-					"markdown": "<h3 style=\"margin-top: 8px;\">Version 1.1.0</h3>",
+					"markdown": "<h3>Version 1.1.0</h3>",
 					"useSpacing": false,
                     "useRawFormat": true,
 					"class": "DepictionMarkdownView"
 				},
                 {
-					"spacing": 10,
+					"spacing": 5,
 					"class": "DepictionSpacerView"
 				},
                 {
@@ -185,12 +185,12 @@
 					"useRawFormat": true,
 					"class": "DepictionMarkdownView"
 				},
+
+
                 {
-					"spacing": 1,
+					"spacing": 10,
 					"class": "DepictionSpacerView"
 				},
-
-
                 {
 					"markdown": "<h3>Version 1.0.0-2</h3>",
 					"useSpacing": false,
@@ -218,11 +218,15 @@
 				},
 
 
+                {
+					"spacing": 10,
+					"class": "DepictionSpacerView"
+				},
 				{
-					"title": "Version 1.0.0-1",
-					"useBoldText": true,
-					"useBottomMargin": false,
-					"class": "DepictionSubheaderView"
+					"title": "<h3>Version 1.0.0-1</h3>",
+					"useSpacing": false,
+                    "useRawFormat": true,
+					"class": "DepictionMarkdownView"
 				},
                 {
 					"spacing": 5,
@@ -245,11 +249,15 @@
 				},
 
 
+                {
+					"spacing": 10,
+					"class": "DepictionSpacerView"
+				},
 				{
-					"title": "Version 1.0.0",
-					"useBoldText": true,
-					"useBottomMargin": false,
-					"class": "DepictionSubheaderView"
+					"title": "<h3>Version 1.0.0</h3>",
+					"useSpacing": false,
+                    "useRawFormat": true,
+					"class": "DepictionMarkdownView"
 				},
                 {
 					"spacing": 5,
