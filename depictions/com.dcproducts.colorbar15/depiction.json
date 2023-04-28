@@ -141,7 +141,7 @@
 					"class": "DepictionSpacerView"
 				},
 				{
-					"markdown": "\u2022 Added rootless support \n\n\u2022 Added the ability to set a status bar background color \n\n\u2022 Added the ability to change the camera and microphone indicator colors, or remove them altogether \n\n\u2022 Added the ability to change the color of different pill indicators on notched devices and the background on non-notched devices \n\n\u2022 Added the ability to change the color of the network activity indicator on applicable devices \n\n\u2022 Other performance and reliability optimizations and improvements",
+					"markdown": "\u2022 Added rootless support \n\u2022 Added the ability to set a status bar background color \n\n\u2022 Added the ability to change the camera and microphone indicator colors, or remove them altogether \n\n\u2022 Added the ability to change the color of different pill indicators on notched devices and the background on non-notched devices \n\n\u2022 Added the ability to change the color of the network activity indicator on applicable devices \n\n\u2022 Other performance and reliability optimizations and improvements",
 					"useSpacing": false,
 					"class": "DepictionMarkdownView"
 				},
