@@ -151,31 +151,31 @@
 					"class": "DepictionMarkdownView"
 				},
                 {
-					"markdown": "<span style=\"margin-top: -8px;\">\u00A0\u00A0\u00A0\u2022\u00A0\u00A0 Added the ability to set a status bar background color</span>",
+					"markdown": "<span style=\"margin-top: -8px;\">\u00A0\u00A0\u00A0\u00A0\u2022\u00A0 Added the ability to set a status bar background color</span>",
 					"useSpacing": false,
                     "useRawFormat": true,
 					"class": "DepictionMarkdownView"
 				},
                 {
-					"markdown": "<span style=\"margin-top: -8px;\">\u00A0\u00A0\u00A0\u2022\u00A0 Added the ability to change the camera and microphone indicator colors, or remove them altogether</span>",
+					"markdown": "<span style=\"margin-top: -8px;\">\u00A0\u00A0\u00A0\u00A0\u2022\u00A0 Added the ability to change the camera and microphone indicator colors, or remove them altogether</span>",
 					"useSpacing": false,
                     "useRawFormat": true,
 					"class": "DepictionMarkdownView"
 				},
                 {
-					"markdown": "<span style=\"margin-top: -8px;\">\u00A0\u00A0\u00A0\u00A0\u2022\u00A0\u00A0 Added the ability to change the color of different pill indicators on notched devices and the background on non-notched devices</span>",
+					"markdown": "<span style=\"margin-top: -8px;\">\u00A0\u00A0\u00A0\u00A0\u2022\u00A0 Added the ability to change the color of different pill indicators on notched devices and the background on non-notched devices</span>",
 					"useSpacing": false,
                     "useRawFormat": true,
 					"class": "DepictionMarkdownView"
 				},
                 {
-					"markdown": "<span style=\"margin-top: -8px;\">\u00A0\u00A0\u00A0\u00A0\u00A0\u2022\u00A0 Added the ability to change the color of the network activity indicator on applicable devices</span>",
+					"markdown": "<span style=\"margin-top: -8px;\">\u00A0\u00A0\u00A0\u00A0\u2022\u00A0 Added the ability to change the color of the network activity indicator on applicable devices</span>",
 					"useSpacing": false,
                     "useRawFormat": true,
 					"class": "DepictionMarkdownView"
 				},
                 {
-					"markdown": "<span style=\"margin-top: -8px;\">\u00A0\u00A0\u00A0\u00A0\u00A0\u2022\u00A0\u00A0   Other performance and reliability optimizations and improvements</span>",
+					"markdown": "<span style=\"margin-top: -8px;\">\u00A0\u00A0\u00A0\u00A0\u2022\u00A0 Other performance and reliability optimizations and improvements</span>",
 					"useSpacing": false,
                     "useRawFormat": true,
 					"class": "DepictionMarkdownView"
@@ -207,7 +207,7 @@
 					"class": "DepictionSpacerView"
 				},
                 {
-					"markdown": "<span style=\"margin-top: -8px;\">\u00A0\u00A0\u00A0\u00A0\u00A0\u2022 Fixed a bug where the the icons in settings would display wrong when Dark Mode is not enabled</span>",
+					"markdown": "<span style=\"margin-top: -8px;\">\u00A0\u00A0\u00A0\u00A0\u2022\u00A0 Fixed a bug where the the icons in settings would display wrong when Dark Mode is not enabled</span>",
 					"useSpacing": false,
                     "useRawFormat": true,
 					"class": "DepictionMarkdownView"
@@ -239,7 +239,7 @@
 					"class": "DepictionSpacerView"
 				},
                 {
-					"markdown": "<span style=\"margin-top: -8px;\">\u00A0\u00A0\u00A0\u00A0\u2022 Fixed a bug where the colors would not apply at all</span>",
+					"markdown": "<span style=\"margin-top: -8px;\">\u00A0\u00A0\u00A0\u00A0\u2022\u00A0 Fixed a bug where the colors would not apply at all</span>",
 					"useSpacing": false,
                     "useRawFormat": true,
 					"class": "DepictionMarkdownView"
@@ -271,7 +271,7 @@
 					"class": "DepictionSpacerView"
 				},
                 {
-					"markdown": "<span style=\"margin-top: -8px;\">\u00A0\u00A0\u00A0\u2022 Initial Release</span>",
+					"markdown": "<span style=\"margin-top: -8px;\">\u00A0\u00A0\u00A0\u00A0\u2022\u00A0 Initial Release</span>",
 					"useSpacing": false,
                     "useRawFormat": true,
 					"class": "DepictionMarkdownView"
