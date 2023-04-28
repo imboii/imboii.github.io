@@ -90,10 +90,14 @@
 					"class": "DepictionSpacerView"
 				},
                 {
-					"title": "Links",
-					"class": "DepictionHeaderView",
-					"useMargins": false,
-                    "useBottomMargin": false
+					"spacing": 10,
+					"class": "DepictionSpacerView"
+				},
+                {
+					"markdown": "<h5>Links</h5>",
+					"useSpacing": false,
+                    "useRawFormat": true,
+					"class": "DepictionMarkdownView"
 				},
 				{
 					"spacing": 10,
