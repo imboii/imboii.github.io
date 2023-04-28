@@ -1,5 +1,5 @@
 {
-	"minVersion": "0.1",
+	"minVersion": "0.4",
 	"headerImage": "https://dtcalabro.github.io/repo/banners/com.dcproducts.colorbar15.png",
 	"tabs": [
 		{
@@ -11,11 +11,11 @@
                 },
                 {
 					"class": "DepictionMarkdownView",
-					"markdown": "ColorBar15 is a rootless tweak compatible with iOS 15."
+					"markdown": "ColorBar15 is available for both rootless and rootful jailbreaks."
                 },
                 {
 					"class": "DepictionMarkdownView",
-					"markdown": "It has been tested and works perfectly fine with XinaA15."
+					"markdown": "It has been tested and works perfectly fine with XinaA15, Dopamine, Palera1n, and will probably work on other jailbreaks too."
 				},
 				{
 					"itemCornerRadius": 10,
@@ -48,17 +48,28 @@
 					"class": "DepictionSeparatorView"
 				},
 				{
-					"title": "Information",
-					"class": "DepictionHeaderView"
+					"spacing": 10,
+					"class": "DepictionSpacerView"
 				},
 				{
-					"title": "Version",
-					"text": "1.0.0-2",
+					"title": "Information",
+					"class": "DepictionHeaderView",
+					"useMargins": false,
+                    "useBottomMargin": false
+				},
+				{
+					"title": "Latest Version",
+					"text": "1.1.0",
 					"class": "DepictionTableTextView"
 				},
 				{
-					"title": "Release Date",
-					"text": "12-27-22",
+					"title": "Latest Release Date",
+					"text": "04-28-23",
+					"class": "DepictionTableTextView"
+				},
+				{
+					"title": "Initial Release Date",
+					"text": "12-25-22",
 					"class": "DepictionTableTextView"
 				},
 				{
@@ -68,21 +79,50 @@
 				},
 				{
 					"title": "Developer",
-					"text": "Derek Calabro",
+					"text": "DTCalabro",
 					"class": "DepictionTableTextView"
+				},
+                {
+					"class": "DepictionSeparatorView"
+				},
+				{
+					"spacing": 10,
+					"class": "DepictionSpacerView"
+				},
+                {
+					"title": "Links",
+					"class": "DepictionHeaderView",
+					"useMargins": false,
+                    "useBottomMargin": false
+				},
+				{
+					"spacing": 10,
+					"class": "DepictionSpacerView"
 				},
 				{
 					"title": "Website",
 					"action": "https://dtcalabro.github.io/repo/",
 					"class": "DepictionTableButtonView"
 				},
-				{
-					"spacing": 16,
-					"class": "DepictionSpacerView"
+                {
+					"title": "GitHub",
+					"action": "https://github.com/dtcalabro",
+					"class": "DepictionTableButtonView"
 				},
-				{
-					"spacing": 20,
-					"class": "DepictionSpacerView"
+                {
+					"title": "Twitter",
+					"action": "https://twitter.com/dcalabro3",
+					"class": "DepictionTableButtonView"
+				},
+                {
+					"title": "Discord",
+					"action": "https://discordapp.com/users/517728575063851014",
+					"class": "DepictionTableButtonView"
+				},
+                {
+					"title": "Donate",
+					"action": "https://paypal.com/donate/?cmd=_donations&business=dtcalabro@gmail.com&item_name=iOS%20Tweak%20Development",
+					"class": "DepictionTableButtonView"
 				}
 			],
 			"class": "DepictionStackView"
@@ -90,14 +130,45 @@
 		{
 			"tabname": "Changelog",
 			"views": [
-				{
-					"title": "Version 1.0.0-2",
+                {
+					"title": "Version 1.1.0",
 					"useBoldText": true,
-					"useBottomMargin": true,
+					"useBottomMargin": false,
 					"class": "DepictionSubheaderView"
 				},
 				{
-					"markdown": "\t\t\n\u2022 Fixed a bug where the the icons in settings would display wrong when Dark Mode is not enabled",
+					"spacing": 10,
+					"class": "DepictionSpacerView"
+				},
+				{
+					"markdown": "\u2022 Added rootless support \n\n\u2022 Added the ability to set a status bar background color \n\n\u2022 Added the ability to change the camera and microphone indicator colors, or remove them altogether \n\n\u2022 Added the ability to change the color of different pill indicators on notched devices and the background on non-notched devices \n\n\u2022 Added the ability to change the color of the network activity indicator on applicable devices \n\n\u2022 Other performance and reliability optimizations and improvements",
+					"useSpacing": false,
+					"class": "DepictionMarkdownView"
+				},
+				
+				{
+					"markdown": "<small style=\"color: #999; margin-top: -8px;\">Released 04-28-23</small>",
+					"useRawFormat": true,
+					"class": "DepictionMarkdownView"
+				},
+                {
+					"spacing": 15,
+					"class": "DepictionSpacerView"
+				},
+
+
+				{
+					"title": "Version 1.0.0-2",
+					"useBoldText": true,
+					"useBottomMargin": false,
+					"class": "DepictionSubheaderView"
+				},
+				{
+					"spacing": 10,
+					"class": "DepictionSpacerView"
+				},
+				{
+					"markdown": "\u2022 Fixed a bug where the the icons in settings would display wrong when Dark Mode is not enabled",
 					"useSpacing": false,
 					"class": "DepictionMarkdownView"
 				},
@@ -107,17 +178,23 @@
 					"class": "DepictionMarkdownView"
 				},
                 {
-					"spacing": 20,
+					"spacing": 15,
 					"class": "DepictionSpacerView"
 				},
+
+
 				{
 					"title": "Version 1.0.0-1",
 					"useBoldText": true,
-					"useBottomMargin": true,
+					"useBottomMargin": false,
 					"class": "DepictionSubheaderView"
 				},
 				{
-					"markdown": "\t\t\n\u2022 Fixed a bug where the colors would not apply at all",
+					"spacing": 10,
+					"class": "DepictionSpacerView"
+				},
+				{
+					"markdown": "\u2022 Fixed a bug where the colors would not apply at all",
 					"useSpacing": false,
 					"class": "DepictionMarkdownView"
 				},
@@ -127,17 +204,23 @@
 					"class": "DepictionMarkdownView"
 				},
                 {
-					"spacing": 20,
+					"spacing": 15,
 					"class": "DepictionSpacerView"
 				},
+
+
 				{
 					"title": "Version 1.0.0",
 					"useBoldText": true,
-					"useBottomMargin": true,
+					"useBottomMargin": false,
 					"class": "DepictionSubheaderView"
 				},
 				{
-					"markdown": "\t\t\n\u2022 Initial Release",
+					"spacing": 10,
+					"class": "DepictionSpacerView"
+				},
+				{
+					"markdown": "\u2022 Initial Release",
 					"useSpacing": false,
 					"class": "DepictionMarkdownView"
 				},
@@ -145,10 +228,6 @@
 					"markdown": "<small style=\"color: #999; margin-top: -8px;\">Released 12-25-22</small>",
 					"useRawFormat": true,
 					"class": "DepictionMarkdownView"
-				},
-                {
-					"spacing": 20,
-					"class": "DepictionSpacerView"
 				}
 			],
 			"class": "DepictionStackView"

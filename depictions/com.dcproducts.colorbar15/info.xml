@@ -1,7 +1,7 @@
 <package>
 	<id>com.dcproducts.colorbar15</id>
 	<name>ColorBar15</name>
-	<version>1.0.0-2</version>
+	<version>1.1.0</version>
 	<compatibility>
 		<firmware>
 			<miniOS>15.0</miniOS>
@@ -17,8 +17,8 @@
 	<descriptionlist>
 		<description>
 		<![CDATA[
-		ColorBar15 is a rootless and rootful tweak compatible with iOS 15.<br/> 
-		It has been tested and works perfectly fine with XinaA15, Dopamine, Palera1n, and will probably work on others too.
+		ColorBar15 is a tweak available on both rootless and rootful jailbreaks.<br/>
+		It has been tested and works perfectly fine with XinaA15, Dopamine, Palera1n, and will probably work on other jailbreaks too.
 		]]>
 		</description>
 	</descriptionlist>
@@ -39,7 +39,12 @@
 		</screenshot>
 	</screenshots>
 	<changelog>
-		<change>Fixed a bug where the the icons in settings would display wrong when Dark Mode is not enabled</change>
+		<change>Added rootless support</change>
+        <change>Added the ability to set a status bar background color</change>
+        <change>Added the ability to change the camera and microphone indicator colors, or remove them altogether</change>
+        <change>Added the ability to change the color of different pill indicators on notched devices and the background on non-notched devices</change>
+        <change>Added the ability to change the color of the network activity indicator on applicable devices</change>
+        <change>Other performance and reliability optimizations and improvements</change>
 	</changelog>
 	<links>
 		<link>
