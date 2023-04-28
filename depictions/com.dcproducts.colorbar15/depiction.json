@@ -90,11 +90,7 @@
 					"class": "DepictionSpacerView"
 				},
                 {
-					"spacing": 10,
-					"class": "DepictionSpacerView"
-				},
-                {
-					"markdown": "<h5>Links</h5>",
+					"markdown": "<h2>Links</h2>",
 					"useSpacing": false,
                     "useRawFormat": true,
 					"class": "DepictionMarkdownView"
@@ -106,16 +102,19 @@
 				{
 					"title": "Website",
 					"action": "https://dtcalabro.github.io/repo/",
+                    "yPadding": 0,
 					"class": "DepictionTableButtonView"
 				},
                 {
 					"title": "GitHub",
 					"action": "https://github.com/dtcalabro",
+                    "yPadding": 5,
 					"class": "DepictionTableButtonView"
 				},
                 {
 					"title": "Twitter",
 					"action": "https://twitter.com/dcalabro3",
+                    "yPadding": 10,
 					"class": "DepictionTableButtonView"
 				},
                 {
