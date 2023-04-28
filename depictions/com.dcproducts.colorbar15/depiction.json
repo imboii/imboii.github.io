@@ -182,6 +182,7 @@
 				},
 				{
 					"markdown": "<small style=\"color: #999; margin-top: -8px;\">Released 04-28-23</small>",
+                    "useSpacing": false,
 					"useRawFormat": true,
 					"class": "DepictionMarkdownView"
 				},
