@@ -3,7 +3,7 @@
 /*@import url(fonts/SFProDisplay/SFProDisplay.css);*/
 
 body {
-    margin: 1rem;
+    margin: 1em;
     /* -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji" */
     /*font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;*/
     /*font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;*/
@@ -25,7 +25,7 @@ body {
 }
 
 .card {
-    margin-bottom: 1rem;
+    margin-bottom: 1em;
     border-radius: 10px;
     border: 3px solid;
 }
@@ -35,11 +35,11 @@ body {
 }
 
 .thumbnail {
-    margin-bottom: 2rem;
+    margin-bottom: 2em;
 }
 
 .list-group {
-    margin-bottom: 2rem;
+    margin-bottom: 2em;
 }
 
 .disable-hover {
@@ -72,6 +72,8 @@ html.can-touch .link-item:active { /* disable hover effect when input is touch *
     font-size: 16px;
     margin-left: 5px;
     margin-right: 15px;
+    min-width: 20px;
+    text-align: center;
 }
 
 p {
@@ -97,6 +99,10 @@ p {
 
 .list-group-item+.list-group-item {
     border-top-width: 0px;
+}
+
+.card-header {
+    font-weight: 500;
 }
 
 .card-header:first-child {
@@ -203,7 +209,7 @@ p {
     width: fit-content;
     margin: auto;
     display: flex;
-    margin-top: 2rem;
+    margin-top: 2em;
 }
 
 .add-repo-header {
@@ -214,7 +220,7 @@ p {
     border-radius: 0px;
     flex: 1 1 auto;
     min-height: 1px;
-    padding: 1.25rem;
+    padding: 1.25em;
     border-width: 3px;
 }
 
@@ -232,8 +238,8 @@ p {
  * Featured packages section
  */
 .featured-header {
-    margin-top: 2rem;
-    margin-bottom: 1rem;
+    margin-top: 2em;
+    margin-bottom: 1em;
 }
 
 /* Mobile Devices */
@@ -255,6 +261,64 @@ p {
 
     .add-repo-btn:not(:last-child) {
         margin-right: 5px;
+    }
+}
+
+
+@media (prefers-color-scheme: light) {
+    body {
+        background-color: var(--light-mode-primary-bg-color);
+        color: black;
+    }
+
+    .card {
+        border-color: var(--light-mode-secondary-bg-color);
+        background-color: rgba(0, 0, 0, 0);
+    }
+
+    .card-header {
+        background-color: var(--light-mode-secondary-bg-color);
+    }
+
+    .card-body {
+        background-color: var(--light-mode-primary-bg-color);
+    }
+
+    .jumbotron {
+        background-color: var(--light-mode-secondary-bg-color);
+    }
+
+    .list-group-item {
+        background-color: var(--light-mode-primary-bg-color);
+        border-color:  var(--light-mode-secondary-bg-color);
+    }
+
+    html.can-touch .link-item:hover { /* disable hover effect when input is touch */
+        background-color: var(--light-mode-primary-bg-color);
+    }
+    
+    html.can-touch .link-item:active { /* disable hover effect when input is touch */
+        background-color: var(--light-mode-primary-bg-color);
+    }
+
+    /*
+    .fa-brands:before {
+        color: white;
+    }
+
+    .link-item:hover > .fa-brands:before {
+        color: black;
+    }
+    */
+
+    .add-repo-body {
+        background-color: var(--light-mode-secondary-bg-color);
+    }
+
+    :root {
+        --light-mode-primary-bg-color: #eeeeee;
+        /*--light-mode-secondary-bg-color: #969696;*/
+        --light-mode-secondary-bg-color: #c9c9c9;
     }
 }
 
