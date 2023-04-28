@@ -207,7 +207,7 @@
 					"class": "DepictionSpacerView"
 				},
                 {
-					"markdown": "<span style=\"margin-top: -8px;\">\u2022 Fixed a bug where the the icons in settings would display wrong when Dark Mode is not enabled</span>",
+					"markdown": "<span style=\"margin-top: -8px;\">\u00A0\u2022 Fixed a bug where the the icons in settings would display wrong when Dark Mode is not enabled</span>",
 					"useSpacing": false,
                     "useRawFormat": true,
 					"class": "DepictionMarkdownView"
@@ -239,7 +239,7 @@
 					"class": "DepictionSpacerView"
 				},
                 {
-					"markdown": "<span style=\"margin-top: -8px;\">\u2022 Fixed a bug where the colors would not apply at all</span>",
+					"markdown": "<span style=\"margin-top: -8px;\">\u00A0\u00A0\u2022 Fixed a bug where the colors would not apply at all</span>",
 					"useSpacing": false,
                     "useRawFormat": true,
 					"class": "DepictionMarkdownView"
@@ -271,7 +271,7 @@
 					"class": "DepictionSpacerView"
 				},
                 {
-					"markdown": "<span style=\"margin-top: -8px;\">\u2022 Initial Release</span>",
+					"markdown": "<span style=\"margin-top: -8px;\">\u00A0\u00A0\u00A0\u2022 Initial Release</span>",
 					"useSpacing": false,
                     "useRawFormat": true,
 					"class": "DepictionMarkdownView"
@@ -286,7 +286,7 @@
 					"useRawFormat": true,
 					"class": "DepictionMarkdownView"
 				},
-                
+
 
                 {
 					"spacing": 20,
