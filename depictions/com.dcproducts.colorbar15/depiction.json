@@ -131,7 +131,7 @@
 			"tabname": "Changelog",
 			"views": [
                 {
-					"markdown": "<h1>Version 1.1.0</h1>",
+					"markdown": "<h4>Version 1.1.0</h4>",
 					"useSpacing": false,
                     "useRawFormat": true,
 					"class": "DepictionMarkdownView"
