@@ -181,7 +181,7 @@
 					"class": "DepictionMarkdownView"
 				},
 				{
-					"markdown": "<small style=\"color: #999; margin-top: -8px;\">Released 04-28-23</small>",
+					"markdown": "<small style=\"color: #999;\">Released 04-28-23</small>",
                     "useSpacing": false,
 					"useRawFormat": true,
 					"class": "DepictionMarkdownView"
@@ -189,7 +189,7 @@
 
 
                 {
-					"spacing": 10,
+					"spacing": 20,
 					"class": "DepictionSpacerView"
 				},
                 {
