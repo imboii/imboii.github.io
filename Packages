@@ -57,15 +57,15 @@ Sileodepiction: https://dtcalabro.github.io/repo/depictions/com.dcproducts.color
 
 Package: com.dcproducts.colorbar15
 Version: 1.1.0-1
-Architecture: iphoneos-arm64
+Architecture: iphoneos-arm
 Maintainer: DTCalabro
 Installed-Size: 1916
 Depends: mobilesubstrate (>= 0.9.5000), ws.hbang.alderis (>= 1.2), preferenceloader
-Filename: ./debs/com.dcproducts.colorbar15_1.1.0-1_iphoneos-arm64.deb
-Size: 471172
-MD5sum: cc0beb61ebc6ec24c0afb5725c4b7ab4
-SHA1: 1e436c21a41e3f629cbe166c870be41d8925afcc
-SHA256: 599a079b25701de73b26cbec130196c4a5cebe31e3b0ed837a90112d1d1fc771
+Filename: ./debs/com.dcproducts.colorbar15_1.1.0_iphoneos-arm.deb
+Size: 471150
+MD5sum: d6d56c4a0d7fb2468f8c7aa80992caff
+SHA1: 564729d4f575074147ea5d6cc130eaa824e767da
+SHA256: 5325e9de6d000737cf7e887e85317262796ffccd26f4f13024d904c0523198e3
 Section: Tweaks
 Description: ColorBar15 allows you to personally style your status bar with colors and more.
 Author: DTCalabro
@@ -76,15 +76,15 @@ Sileodepiction: https://dtcalabro.github.io/repo/depictions/com.dcproducts.color
 
 Package: com.dcproducts.colorbar15
 Version: 1.1.0-1
-Architecture: iphoneos-arm
+Architecture: iphoneos-arm64
 Maintainer: DTCalabro
 Installed-Size: 1916
 Depends: mobilesubstrate (>= 0.9.5000), ws.hbang.alderis (>= 1.2), preferenceloader
-Filename: ./debs/com.dcproducts.colorbar15_1.1.0-1_iphoneos-arm.deb
-Size: 471150
-MD5sum: d6d56c4a0d7fb2468f8c7aa80992caff
-SHA1: 564729d4f575074147ea5d6cc130eaa824e767da
-SHA256: 5325e9de6d000737cf7e887e85317262796ffccd26f4f13024d904c0523198e3
+Filename: ./debs/com.dcproducts.colorbar15_1.1.0_iphoneos-arm64.deb
+Size: 471172
+MD5sum: cc0beb61ebc6ec24c0afb5725c4b7ab4
+SHA1: 1e436c21a41e3f629cbe166c870be41d8925afcc
+SHA256: 599a079b25701de73b26cbec130196c4a5cebe31e3b0ed837a90112d1d1fc771
 Section: Tweaks
 Description: ColorBar15 allows you to personally style your status bar with colors and more.
 Author: DTCalabro
