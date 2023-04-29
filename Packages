@@ -93,26 +93,3 @@ Icon: https://dtcalabro.github.io/repo/depictions/com.dcproducts.colorbar15/icon
 Name: ColorBar15
 Sileodepiction: https://dtcalabro.github.io/repo/depictions/com.dcproducts.colorbar15/depiction.json
 
-Package: ws.hbang.alderis
-Version: 1.2
-Architecture: iphoneos-arm64
-Maintainer: HASHBANG Productions <support@hbang.ws>
-Installed-Size: 1456
-Depends: firmware (>= 12.0), firmware (>= 12.2) | org.swift.libswift (>= 5.0), uikittools
-Replaces: org.thebigboss.libcolorpicker, me.nepeta.libcolorpicker
-Provides: org.thebigboss.libcolorpicker (= 99.0), me.nepeta.libcolorpicker (= 99.0)
-Filename: ./debs/ws.hbang.alderis_1.2_iphoneos-arm64.deb
-Size: 142946
-MD5sum: 2cf56d5741eb2778665260bec6693823
-SHA1: 28874ef2a07674446ca5dc784cfff0d513e30c10
-SHA256: e57a4996522a394d01ac14ebc7084687c5fa93aa9739e30e67f186b7537186b7
-Section: Development
-Description: Color picker support library for tweaks
-Tag: role::developer, compatible_min::ios12.0
-Author: HASHBANG Productions <support@hbang.ws>
-Depiction: https://chariz.com/get/alderis
-Dev: hbang
-Icon: https://img.chariz.cloud/icon/alderis/icon@3x.png
-Name: Alderis Color Picker
-Support: https://hashbang.productions/support/
-
