@@ -51,11 +51,15 @@
 					"spacing": 10,
 					"class": "DepictionSpacerView"
 				},
-				{
-					"title": "Information",
-					"class": "DepictionHeaderView",
-					"useMargins": false,
-                    "useBottomMargin": false
+                {
+					"markdown": "<h2>Information</h2>",
+					"useSpacing": false,
+                    "useRawFormat": true,
+					"class": "DepictionMarkdownView"
+				},
+                {
+					"spacing": 10,
+					"class": "DepictionSpacerView"
 				},
 				{
 					"title": "Latest Version",
@@ -102,19 +106,16 @@
 				{
 					"title": "Website",
 					"action": "https://dtcalabro.github.io/repo/",
-                    "yPadding": 0,
 					"class": "DepictionTableButtonView"
 				},
                 {
 					"title": "GitHub",
 					"action": "https://github.com/dtcalabro",
-                    "yPadding": 5,
 					"class": "DepictionTableButtonView"
 				},
                 {
 					"title": "Twitter",
 					"action": "https://twitter.com/dcalabro3",
-                    "yPadding": 10,
 					"class": "DepictionTableButtonView"
 				},
                 {
