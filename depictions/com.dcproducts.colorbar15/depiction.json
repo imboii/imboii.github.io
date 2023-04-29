@@ -5,10 +5,6 @@
 		{
 			"tabname": "Details",
 			"views": [
-				{
-					"class": "DepictionMarkdownView",
-					"markdown": "## ColorBar15"
-                },
                 {
 					"class": "DepictionMarkdownView",
 					"markdown": "ColorBar15 is available for both rootless and rootful jailbreaks."
