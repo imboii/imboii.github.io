@@ -81,10 +81,10 @@ Maintainer: DTCalabro
 Installed-Size: 1916
 Depends: mobilesubstrate (>= 0.9.5000), ws.hbang.alderis (>= 1.2), preferenceloader
 Filename: ./debs/com.dcproducts.colorbar15_1.1.0_iphoneos-arm64.deb
-Size: 471196
-MD5sum: 3346bffe26e33454b040d9988b2a6b60
-SHA1: ad2ef33290fc2dbe98634e8ab52683495b3b01ef
-SHA256: 43ddfb8f8a16d1658d1558399e8b955056ddf5a27d3ab7893276697df44b73f8
+Size: 471188
+MD5sum: a95830f10a354625027fdef2cd5d83c6
+SHA1: 636ed22cb0e9e1cb4bc99599098e9bbfa357824c
+SHA256: 75bf9c8e35f49b48546bcfdf9c27158041b45290ee433ea7f4f347d58ca829f9
 Section: Tweaks
 Description: ColorBar15 allows you to personally style your status bar with colors and more.
 Author: DTCalabro
