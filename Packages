@@ -1,3 +1,41 @@
+Package: com.dcproducts.bluetoothrestarter
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: DTCalabro
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.6)
+Filename: ./debs/com.dcproducts.bluetoothrestarter_1.0.0_iphoneos-arm.deb
+Size: 7746
+MD5sum: 041384410e9e7194e84f0795d7b616dc
+SHA1: 567f99d1fcb2920243b442f748bdc82bf52706a3
+SHA256: b5036e21720af20a14103a4885a213e3013ad46baee95d1ae9f7f21976e7855b
+Section: Utilities
+Description: Restarts bluetooth after every respring in order to fix notifications on bluetooth devices not working.
+Author: DTCalabro
+Depiction: https://dtcalabro.github.io/repo/depictions/?p=com.dcproducts.bluetoothrestarter
+Icon: https://dtcalabro.github.io/repo/depictions/com.dcproducts.bluetoothrestarter/icon.png
+Name: BluetoothRestarter
+Sileodepiction: https://dtcalabro.github.io/repo/depictions/com.dcproducts.bluetoothrestarter/depiction.json
+
+Package: com.dcproducts.bluetoothrestarter
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: DTCalabro
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.6)
+Filename: ./debs/com.dcproducts.bluetoothrestarter_1.0.0_iphoneos-arm64.deb
+Size: 7792
+MD5sum: c322155e349eee8d33df806406579c34
+SHA1: 68fe4bbab70ef657628be375dfa5a65e69388c3e
+SHA256: 63b37b7418e20ae41501cc123d0dbb740ae2fc7bed648e3ca9cef76c39f1bc5c
+Section: Utilities
+Description: Restarts bluetooth after every respring in order to fix notifications on bluetooth devices not working.
+Author: DTCalabro
+Depiction: https://dtcalabro.github.io/repo/depictions/?p=com.dcproducts.bluetoothrestarter
+Icon: https://dtcalabro.github.io/repo/depictions/com.dcproducts.bluetoothrestarter/icon.png
+Name: BluetoothRestarter
+Sileodepiction: https://dtcalabro.github.io/repo/depictions/com.dcproducts.bluetoothrestarter/depiction.json
+
 Package: com.dcproducts.colorbar15
 Version: 1.0.0
 Architecture: iphoneos-arm
