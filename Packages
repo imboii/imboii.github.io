@@ -3,12 +3,12 @@ Version: 1.0.0
 Architecture: iphoneos-arm
 Maintainer: DTCalabro
 Installed-Size: 168
-Depends: mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.6)
+Depends: mobilesubstrate (>= 0.9.5000)
 Filename: ./debs/com.dcproducts.bluetoothrestarter_1.0.0_iphoneos-arm.deb
-Size: 7746
-MD5sum: 041384410e9e7194e84f0795d7b616dc
-SHA1: 567f99d1fcb2920243b442f748bdc82bf52706a3
-SHA256: b5036e21720af20a14103a4885a213e3013ad46baee95d1ae9f7f21976e7855b
+Size: 7722
+MD5sum: 4cfd08f063555d3800ecc199c5c257c2
+SHA1: dd30bf6e5c1198796f4af3b7147fdbef4cfe2fe0
+SHA256: 391539238017c7b8a1cbe33533133413ca1d803618ae19dbf52f7dac5f190c75
 Section: Utilities
 Description: Restarts bluetooth after every respring in order to fix notifications on bluetooth devices not working.
 Author: DTCalabro
@@ -22,12 +22,12 @@ Version: 1.0.0
 Architecture: iphoneos-arm64
 Maintainer: DTCalabro
 Installed-Size: 168
-Depends: mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.6)
+Depends: mobilesubstrate (>= 0.9.5000)
 Filename: ./debs/com.dcproducts.bluetoothrestarter_1.0.0_iphoneos-arm64.deb
-Size: 7792
-MD5sum: c322155e349eee8d33df806406579c34
-SHA1: 68fe4bbab70ef657628be375dfa5a65e69388c3e
-SHA256: 63b37b7418e20ae41501cc123d0dbb740ae2fc7bed648e3ca9cef76c39f1bc5c
+Size: 7774
+MD5sum: 5d24ce2b4fd5bd42b35d7ee4fc5401c8
+SHA1: 6634c0eb2fba84db99ab729ea96cd16935283e18
+SHA256: 4cd4d6e7bfbd65887f3309179188a0bb5720d9b20f695147b5966baa9b209286
 Section: Utilities
 Description: Restarts bluetooth after every respring in order to fix notifications on bluetooth devices not working.
 Author: DTCalabro
@@ -97,13 +97,13 @@ Package: com.dcproducts.colorbar15
 Version: 1.1.0
 Architecture: iphoneos-arm
 Maintainer: DTCalabro
-Installed-Size: 1916
-Depends: mobilesubstrate (>= 0.9.5000), ws.hbang.alderis (>= 1.2), preferenceloader
+Installed-Size: 1952
+Depends: mobilesubstrate (>= 0.9.5000), ws.hbang.alderis (>= 1.2.1), preferenceloader (>= 2.2.6)
 Filename: ./debs/com.dcproducts.colorbar15_1.1.0_iphoneos-arm.deb
-Size: 471154
-MD5sum: 4321ae792e3e3ea31da07ee7813415c3
-SHA1: 1d90899f9d68e52d5aaba4c6f86176d89980d265
-SHA256: b537010b96520669d1f1e504c365121a2b558ab5c8548e9ba4d78b679f2ea55b
+Size: 475172
+MD5sum: 6ce20139c5b415317ba354db84924168
+SHA1: 300528de7bda127779bbcd2e37640967575974c2
+SHA256: 7901dbcc8baf62c6f736e90ec71c9aa827aa6796f2f8119e796a7988e021dbeb
 Section: Tweaks
 Description: ColorBar15 allows you to personally style your status bar with colors and more.
 Author: DTCalabro
@@ -116,13 +116,13 @@ Package: com.dcproducts.colorbar15
 Version: 1.1.0
 Architecture: iphoneos-arm64
 Maintainer: DTCalabro
-Installed-Size: 1916
-Depends: mobilesubstrate (>= 0.9.5000), ws.hbang.alderis (>= 1.2), preferenceloader
+Installed-Size: 1952
+Depends: mobilesubstrate (>= 0.9.5000), ws.hbang.alderis (>= 1.2.1), preferenceloader (>= 2.2.6)
 Filename: ./debs/com.dcproducts.colorbar15_1.1.0_iphoneos-arm64.deb
-Size: 471188
-MD5sum: a95830f10a354625027fdef2cd5d83c6
-SHA1: 636ed22cb0e9e1cb4bc99599098e9bbfa357824c
-SHA256: 75bf9c8e35f49b48546bcfdf9c27158041b45290ee433ea7f4f347d58ca829f9
+Size: 475202
+MD5sum: b7547abdafcb5afe8ecaadd8ba683286
+SHA1: d6111a577f6da62f00846601bbb7ae225fbd5a40
+SHA256: 98331405023346304dc472bd10bcb64b8a6fbb8feb1d09b9600fccef2876e404
 Section: Tweaks
 Description: ColorBar15 allows you to personally style your status bar with colors and more.
 Author: DTCalabro
