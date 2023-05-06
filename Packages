@@ -131,3 +131,41 @@ Icon: https://dtcalabro.github.io/repo/depictions/com.dcproducts.colorbar15/icon
 Name: ColorBar15
 Sileodepiction: https://dtcalabro.github.io/repo/depictions/com.dcproducts.colorbar15/depiction.json
 
+Package: com.dcproducts.pagedotsbegone
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: Derek Calabro
+Installed-Size: 856
+Depends: mobilesubstrate (>= 0.9.5000), ws.hbang.alderis (>= 1.2.1), preferenceloader (>= 2.2.6)
+Filename: ./debs/com.dcproducts.pagedotsbegone_1.0.0_iphoneos-arm64.deb
+Size: 154836
+MD5sum: c095732cdacf57b816bcd492539e4875
+SHA1: 990bb2c360cbc9aa366d0be84f5ea0de1d8957e3
+SHA256: 75b4c09bb8494ba77265afd4fc50bb71eb3201f44f5fead7edcb6c07220ffea0
+Section: Tweaks
+Description: PageDotsBeGone allows you to not only hide your page dots but also customize the way they look and feel.
+Author: Derek Calabro
+Depiction: https://dtcalabro.github.io/repo/depictions/?p=com.dcproducts.pagedotsbegone
+Icon: https://dtcalabro.github.io/repo/depictions/com.dcproducts.pagedotsbegone/icon.png
+Name: PageDotsBeGone
+Sileodepiction: https://dtcalabro.github.io/repo/depictions/com.dcproducts.pagedotsbegone/depiction.json
+
+Package: com.dcproducts.pagedotsbegone
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: Derek Calabro
+Installed-Size: 856
+Depends: mobilesubstrate (>= 0.9.5000), ws.hbang.alderis (>= 1.2.1), preferenceloader (>= 2.2.6)
+Filename: ./debs/com.dcproducts.pagedotsbegone_1.0.0_iphoneos-arm.deb
+Size: 154788
+MD5sum: 36e1ec0be32429ae86068dc376f1265b
+SHA1: 180b2812fcff2675a76d2585a1f632440b8a0a45
+SHA256: 1a11b337d49e5b4de39f30707da84dfaa9e280674ec0dbed344351af801b9a2b
+Section: Tweaks
+Description: PageDotsBeGone allows you to not only hide your page dots but also customize the way they look and feel.
+Author: Derek Calabro
+Depiction: https://dtcalabro.github.io/repo/depictions/?p=com.dcproducts.pagedotsbegone
+Icon: https://dtcalabro.github.io/repo/depictions/com.dcproducts.pagedotsbegone/icon.png
+Name: PageDotsBeGone
+Sileodepiction: https://dtcalabro.github.io/repo/depictions/com.dcproducts.pagedotsbegone/depiction.json
+
