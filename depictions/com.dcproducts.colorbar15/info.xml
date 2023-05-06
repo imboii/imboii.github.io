@@ -10,6 +10,7 @@
 	</compatibility>
 	<dependencies>
 		<package>mobilesubstrate</package>
+        <package>preferenceloader</package>
 		<package>ws.hbang.alderis</package>
 	</dependencies>
     <headerImage>https://dtcalabro.github.io/repo/banners/com.dcproducts.colorbar15.png</headerImage>
