@@ -185,12 +185,13 @@ p {
     /*width: 250px;*/
     /*height: 25%;
     width: 25%;*/
-    padding: 10px;
+    /*padding: 10px;*/
     /*margin: 10px;*/
     max-width: 100%;
     border-radius: 10px;
     /*overflow-anchor: none;*
     /*vertical-align: -webkit-baseline-middle;*/
+    margin-bottom: 10px;
 }
 
 .main-header-label {
